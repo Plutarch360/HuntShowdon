@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>      
+    <div id="navbar">
+        <ul>
+            <li><img src="img/logo.png" width="30" height="40"></li>                
+            <li><a href="index.html">Hunt Showdown</a></li>
+            <li><a href="hunters.html">Hunters</a></li>
+            <li><a href="infected.html">Infected</a></li>
+            <li><a href="weapons.html">Weapons</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a class="active" href="consumables.html">Consumables</a></li>
+            <li><a href="bountyhunt.html">Bounty Hunt</a></li>
+            <li><a href="quickplay.html">Quickplay</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="creators.html">Content Creators</a></li>
+            <li><a href="discord.html">Discord Groups</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+      <h1>Consumables</h1>
+      
+
+    <script>
+        window.onscroll = function() {myFunction()};        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+</body>
+</html>
